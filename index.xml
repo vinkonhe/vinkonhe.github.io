@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VinKon He&#39;s Blog</title>
+    <link>https://lilkon.tech/</link>
+    <description>Recent content on VinKon He&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jul 2024 08:10:55 +0800</lastBuildDate>
+    <atom:link href="https://lilkon.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://lilkon.tech/about/</link>
+      <pubDate>Fri, 12 Jul 2024 08:10:55 +0800</pubDate>
+      <guid>https://lilkon.tech/about/</guid>
+      <description>Read this brief introduction to learn more about me My name is VinKon(Full Name is VinKon He). And I am currently living in China.&#xA;I am on a gap year, and I need time to recover from a serious mental illness.&#xA;Most of the time, I&amp;rsquo;m reading books on Linguistics, Pharmacology, Computer science, and more. I&amp;rsquo;ll post my thoughts, notes, and research here.&#xA;Books I’m reading recently:&#xA;An Introduction to Language and Linguistics In my free time I play Minecraft, and creating fun projects on Arch Linux.</description>
+    </item>
+    <item>
+      <title>Links</title>
+      <link>https://lilkon.tech/links/</link>
+      <pubDate>Fri, 12 Jul 2024 08:10:55 +0800</pubDate>
+      <guid>https://lilkon.tech/links/</guid>
+      <description> Find me on other social media via this form X (Twitter) Figma Github Email Reddit </description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://lilkon.tech/posts/2024-07-11-hello-world/</link>
+      <pubDate>Thu, 11 Jul 2024 21:49:37 +0800</pubDate>
+      <guid>https://lilkon.tech/posts/2024-07-11-hello-world/</guid>
+      <description>&lt;p&gt;I changed the theme of my blog. This post is for demonstration purposes&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

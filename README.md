@@ -1,3 +1,0 @@
-# vinkonhe.github.io
-
-

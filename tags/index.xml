@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on VinKon He&#39;s Blog</title>
+    <link>https://lilkon.tech/tags/</link>
+    <description>Recent content in Tags on VinKon He&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jul 2024 08:10:55 +0800</lastBuildDate>
+    <atom:link href="https://lilkon.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pages</title>
+      <link>https://lilkon.tech/tags/pages/</link>
+      <pubDate>Fri, 12 Jul 2024 08:10:55 +0800</pubDate>
+      <guid>https://lilkon.tech/tags/pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>https://lilkon.tech/tags/coding/</link>
+      <pubDate>Thu, 11 Jul 2024 21:49:37 +0800</pubDate>
+      <guid>https://lilkon.tech/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://lilkon.tech/tags/design/</link>
+      <pubDate>Thu, 11 Jul 2024 21:49:37 +0800</pubDate>
+      <guid>https://lilkon.tech/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linguistics</title>
+      <link>https://lilkon.tech/tags/linguistics/</link>
+      <pubDate>Thu, 11 Jul 2024 21:49:37 +0800</pubDate>
+      <guid>https://lilkon.tech/tags/linguistics/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>As on VinKon He&#39;s Blog</title>
+    <link>http://localhost:1313/categories/as/</link>
+    <description>Recent content in As on VinKon He&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jul 2024 21:49:37 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/as/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/2024-07-11-hello-world/</link>
+      <pubDate>Thu, 11 Jul 2024 21:49:37 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2024-07-11-hello-world/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
