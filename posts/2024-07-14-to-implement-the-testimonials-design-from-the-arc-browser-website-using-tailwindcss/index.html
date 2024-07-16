@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>To Implement the Testimonials Design From the Arc Browser Website Using Tailwindcss</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)']]                  
+        }
+    };
+</script>
+    
+
+</head>
+<body>
+	<header>
+
+
+    ┃ <a style="font-size: large" href="http://localhost:1313/"><b>VinKon He&#39;s Blog</b></a>
+
+
+
+
+	<div style="float: right;">Time, please slow down!</div><br>
+	<p>
+	<nav>
+			<a href="/"><b>Recent</b></a>.
+			
+			
+			<a href="/posts/"><b>Posts</b></a>.
+			
+			<a href="/about/"><b>About</b></a>.
+			
+			<a href="/links/"><b>Links</b></a>.
+			
+			<a href="/tags/"><b>Tags</b></a>.
+			
+	</nav>
+	</p>
+	
+    <hr style="margin-top: 32px">
+</header>
+
+	
+<main>
+    <article>
+        <h1>To Implement the Testimonials Design From the Arc Browser Website Using Tailwindcss</h1>
+        <b><time>14 July 2024</time></b>
+        
+        <a href="/tags/coding">Coding</a>
+        
+
+        <div>
+            <p>Try to use a Next.js + TypeScript + TailwindCSS project to implement the testimonials design from the Arc browser website using TailwindCSS.</p>
+<table>
+<thead>
+<tr>
+<th>
+<figure>
+  <img src="../../assets/image/image-20240714000504444.png" alt="image-20240714000504444" />
+</figure>
+
+
+</th>
+<th></th>
+</tr>
+</thead>
+</table>
+<blockquote>
+<p>The left screenshot is from the official website. The right one is what we will make next.</p>
+</blockquote>
+<p>First, open a project that uses TailwindCSS. I prefer to use Next.js and TypeScript, so I will also use a Next.js project in this post.</p>
+<p>Create a new directory for components under the <code>ui</code> directory.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>  <span style="color:#75715e"># Using the `-p` option can help you create parent directories quickly.</span>
+</span></span><span style="display:flex;"><span>  mkdir -p ui/components
+</span></span></code></pre></div><p>And create a new file named <code>Testimonials.tsx</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tsx" data-lang="tsx"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Testimonials() {</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+        </div>
+    </article>
+</main>
+
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/2024-07-14-to-implement-the-testimonials-design-from-the-arc-browser-website-using-tailwindcss/">To Implement the Testimonials Design From the Arc Browser Website Using Tailwindcss</a></li>
+				
+				<li><a href="/posts/2024-07-11-hello-world/">Hello World</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	
+<footer style="margin-top: 32px">
+    <hr>
+    <p style="margin-top: 20px">&copy; 2024 <a href="http://localhost:1313/"><b>VinKon He</b></a>.
+	<a href="https://figma.com/@vinkonhe"><b>Figma</b></a>.
+	<a href="https://github.com/vinkonhe"><b>Github</b></a>.
+	<a href="https://x.com/vinkonhe"><b>X (Twitter)</b></a>. <br>
+
+    <p>
+        Built with
+        <a href="http://www.gohugo.io/">Hugo</a>,
+        Using the
+        <a href="https://github.com/colorchestra/smol">smol</a>
+        theme
+    </p>
+
+</footer>
+
+</body>
+</html>
