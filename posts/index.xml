@@ -6,14 +6,21 @@
     <description>Recent content in Posts on VinKon He&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jul 2024 21:49:37 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 00:30:58 +0800</lastBuildDate>
     <atom:link href="https://lilkon.tech/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some Tips on Typography in Design</title>
+      <link>https://lilkon.tech/posts/2024-07-17-some-tips-on-typography-in-design/</link>
+      <pubDate>Wed, 17 Jul 2024 00:30:58 +0800</pubDate>
+      <guid>https://lilkon.tech/posts/2024-07-17-some-tips-on-typography-in-design/</guid>
+      <description>&lt;p&gt;How to choose the right font width, font size, and font family for your design.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>https://lilkon.tech/posts/2024-07-11-hello-world/</link>
       <pubDate>Thu, 11 Jul 2024 21:49:37 +0800</pubDate>
       <guid>https://lilkon.tech/posts/2024-07-11-hello-world/</guid>
-      <description>&lt;p&gt;I changed the theme of my blog. This post is for demonstration purposes&lt;/p&gt;</description>
+      <description>&lt;p&gt;I changed the theme of my blog. This post is for demonstration purposes.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
