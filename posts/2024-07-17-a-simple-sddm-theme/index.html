@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>A Simple SDDM Theme</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)']]                  
+        }
+    };
+</script>
+    
+
+</head>
+<body>
+	<header>
+
+    <div>
+        <a style="font-size: large" href="https://lilkon.tech/"><b>VinKon He&#39;s Blog</b></a>
+        <a style="font-size: large"><b>/</b></a>
+        <a style="font-size: large">Time, please slow down!</a>
+
+    </div>
+   <p>
+	<nav>
+			<a href="/"><b>Recent</b></a>.
+			
+			
+			<a href="/posts/"><b>Posts</b></a>.
+			
+			<a href="/about/"><b>About</b></a>.
+			
+			<a href="/links/"><b>Links</b></a>.
+			
+			<a href="/tags/"><b>Tags</b></a>.
+			
+	</nav>
+	</p>
+	
+    <hr style="margin-top: 32px">
+</header>
+
+	
+<main>
+    <article>
+        <h1>A Simple SDDM Theme</h1>
+        <b><time>17 July 2024</time></b>
+        
+        <a href="/tags/linux">Linux</a>
+        
+
+        <div>
+            <p>When visiting the website, I found this theme.</p>
+<h2 id="screenshot">ScreenShot</h2>
+<table>
+<thead>
+<tr>
+<th>
+<figure>
+  <img src="https://images.pling.com/img/00/00/68/64/86/2011322/screenshot-20230331-113048.png" alt="" />
+</figure>
+
+
+</th>
+<th>
+<figure>
+  <img src="https://images.pling.com/img/00/00/68/64/86/2011322/20240323-131240.png" alt="" />
+</figure>
+
+
+</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<figure>
+  <img src="https://images.pling.com/img/00/00/68/64/86/2011322/screenshot-20230511-211739.png" alt="" />
+</figure>
+
+
+</td>
+<td>
+<figure>
+  <img src="https://images.pling.com/img/00/00/68/64/86/2011322/20240323-1310511.png" alt="" />
+</figure>
+
+
+</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://store.kde.org/p/2011322">KDE Store</a></p>
+<p>It can display only the password input, or it can show more information, such as the background and username.</p>
+<p>We can choose what to display by editing <strong>theme.conf</strong>, such as username, background, password security mask, and the color of the cursor in the password input field.&quot;</p>
+<h2 id="how-to-use-this-theme">How to Use this Theme</h2>
+<p>Download the <strong>tar.gz</strong> file, and use the command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>tar -zvxf &lt;fileName&gt;.tar.gz
+</span></span></code></pre></div><p>to unzip it.</p>
+<p>Copy this directory into <em>/usr/share/sddm/themes/</em>,</p>
+<p>After that, use any text editor to open <em>/etc/sddm.conf</em>. (I use vim, btw.)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># First, you need to gain root access, or you can use sudo.&#34;</span>
+</span></span><span style="display:flex;"><span>vim /etc/sddm.conf
+</span></span></code></pre></div><p>Find this line, and add the theme name to Current later.
+Find this line, and add the theme name to <code>Current</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>Theme<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>Current<span style="color:#f92672">=</span>where_is_my_sddm_theme
+</span></span></code></pre></div><h2 id="at-the-last">At the Last</h2>
+<p>Reboot the system to make the changes effective.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>reboot
+</span></span></code></pre></div>
+        </div>
+    </article>
+</main>
+
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/2024-07-17-a-simple-sddm-theme/">A Simple SDDM Theme</a></li>
+				
+				<li><a href="/posts/2024-07-17-some-tips-on-typography-in-design/">Some Tips on Typography in Design</a></li>
+				
+				<li><a href="/posts/2024-07-11-hello-world/">Hello World</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	
+<footer style="margin-top: 32px">
+    <hr>
+    <p style="margin-top: 20px">&copy; 2024 <a href="https://lilkon.tech/"><b>VinKon He</b></a>.
+	<a href="https://figma.com/@vinkonhe"><b>Figma</b></a>.
+	<a href="https://github.com/vinkonhe"><b>Github</b></a>.
+	<a href="https://x.com/vinkonhe"><b>X (Twitter)</b></a>. <br>
+
+    <p>
+        Built with
+        <a href="http://www.gohugo.io/">Hugo</a>,
+        Using the
+        <a href="https://github.com/colorchestra/smol">smol</a>
+        theme
+    </p>
+
+</footer>
+
+</body>
+</html>
